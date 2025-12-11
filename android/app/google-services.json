@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "570497810354",
+    "project_id": "balagh-7044c",
+    "storage_bucket": "balagh-7044c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570497810354:android:f466bd6c2f33279847aeab",
+        "android_client_info": {
+          "package_name": "com.example.balagh"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALt5BV7Jown8eJoIrydBZ7TPnA9An-xYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
