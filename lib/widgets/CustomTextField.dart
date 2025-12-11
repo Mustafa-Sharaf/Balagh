@@ -1,7 +1,6 @@
 import 'package:balagh/app_theme/AppColors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
 import '../app_theme/theme_controller.dart';
 
 class CustomTextField extends StatefulWidget {
@@ -53,9 +52,7 @@ class _CustomTextFieldState extends State<CustomTextField> {
         controller: widget.controller,
         obscureText: _isObscured,
         keyboardType: widget.keyboardType,
-        maxLines: widget.obscureText
-            ? 1
-            : (widget.maxLines ?? 1),
+        maxLines: widget.obscureText ? 1 : (widget.maxLines ?? 1),
         style: const TextStyle(fontSize: 16),
         decoration: InputDecoration(
           prefixIcon: widget.icon != null
@@ -68,7 +65,9 @@ class _CustomTextFieldState extends State<CustomTextField> {
             fontWeight: FontWeight.bold,
           ),
           filled: true,
-          fillColor: themeController.isDarkMode.value?AppColors.componentDark : AppColors.white,
+          fillColor: themeController.isDarkMode.value
+              ? AppColors.componentDark
+              : AppColors.white,
           contentPadding: const EdgeInsets.symmetric(
             vertical: 18,
             horizontal: 16,

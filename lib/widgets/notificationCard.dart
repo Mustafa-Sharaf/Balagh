@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:balagh/app_theme/AppColors.dart';
-import 'package:balagh/modules/notifications/notifications_model.dart'; // <- موحّد
+import 'package:balagh/modules/notifications/notifications_model.dart';
 
 class NotificationCard extends StatelessWidget {
   const NotificationCard({super.key, required this.notification});

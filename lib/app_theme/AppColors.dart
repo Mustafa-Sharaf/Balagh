@@ -20,6 +20,4 @@ class AppColors{
   static const componentDark = Color(0xFF212934);
   static const backgroundDark = Color(0xFF111111);
 
-
-
 }

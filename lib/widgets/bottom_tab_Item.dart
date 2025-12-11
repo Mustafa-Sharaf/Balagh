@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../app_theme/AppColors.dart';
-import '../modules/Complaint/Complaint_Screen.dart';
 import '../modules/Complaints/Complaints_Screen.dart';
 import '../modules/Home/Home_Controller.dart';
 
@@ -27,7 +26,6 @@ class BottomTabItem extends StatelessWidget {
       return GestureDetector(
         onTap: (){
           if (index == 1) {
-            //Get.to(() =>  InventoryManagementScreen());
             Get.to(() =>  ComplaintScreen());
           } else if (index == 3) {
            // Get.to(() =>  CartScreen());
